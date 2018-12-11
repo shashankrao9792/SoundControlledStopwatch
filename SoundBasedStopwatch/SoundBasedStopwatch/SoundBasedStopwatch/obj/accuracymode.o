@@ -1,0 +1,211 @@
+XH
+H 1 areas E global symbols
+M accuracymode.asm
+S modeSwitch Ref0000
+S LCD_1_Position Ref0000
+S LCD_1_PrCString Ref0000
+S accuracy Ref0000
+S sRomString5 Ref0000
+S sRomString6 Ref0000
+S sRomString7 Ref0000
+S sRomString8 Ref0000
+S LCD_1_Init Ref0000
+S sRomString18 Ref0000
+S watchSwitch Ref0000
+A text size B0 flags 0
+dbfile ./accuracymode.asm
+dbfunc 0 ? 0 I
+dbline C 0
+dbline D 2
+dbline E 4
+dbline F 7
+dbline 10 9
+dbline 11 B
+dbline 13 E
+dbline 14 11
+dbline 16 13
+dbline 17 16
+dbline 19 18
+dbline 1A 1B
+dbline 1D 1D
+dbline 1F 20
+dbline 20 22
+dbline 21 24
+dbline 22 27
+dbline 23 29
+dbline 24 2B
+dbline 25 2E
+dbline 26 30
+dbline 27 32
+dbline 28 35
+dbline 29 37
+dbline 2A 39
+dbline 2C 3C
+dbline 2D 3F
+dbline 2F 41
+dbline 30 44
+dbline 32 46
+dbline 33 49
+dbline 37 4B
+dbline 39 4E
+dbline 3A 50
+dbline 3B 52
+dbline 3C 55
+dbline 3D 57
+dbline 3E 59
+dbline 3F 5C
+dbline 40 5E
+dbline 41 60
+dbline 42 63
+dbline 43 65
+dbline 44 67
+dbline 46 6A
+dbline 47 6D
+dbline 49 6F
+dbline 4A 72
+dbline 4C 74
+dbline 4D 77
+dbline 51 79
+dbline 53 7C
+dbline 54 7E
+dbline 55 80
+dbline 56 83
+dbline 57 85
+dbline 58 87
+dbline 59 8A
+dbline 5A 8C
+dbline 5B 8E
+dbline 5C 91
+dbline 5D 93
+dbline 5E 95
+dbline 60 98
+dbline 61 9B
+dbline 63 9D
+dbline 64 A0
+dbline 66 A2
+dbline 67 A5
+dbline 6A A7
+dbline 6B AA
+dbline 6E AC
+dbline 6F AF
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile Timer32_1.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/Timer32_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile Timer16_2.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/Timer16_2.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile Timer16_1.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/Timer16_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/PGA_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile LED_4.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/LED_4.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile LED_3.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/LED_3.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile LED_2.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/LED_2.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile LED_1.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/LED_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile LCD_1.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/LCD_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/ADCINC12_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/PSoCGPIOINT.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./accuracymode.asm
+dbfunc 0 ? 0 I
+dbfile memory.inc
+dbfunc 0 ? 0 I
+dbfile ./accuracymode.asm
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+S accuracyModeStart Def0000
+S $sb$accuracyModeStart Def0000
+S $se$accuracyModeStart Def00B0
+T 00 00 50 00 57 00 7C 00 00 50 00 00 57 00 00 7C
+R 00 00 00 00 02 07 00 01 43 0A 00 04 03 0D 00 04
+T 00 0C 00 00 3C 00 00 01 A0 9A 3C 00 00 00 A0 06
+R 00 00 00 00 02 02 00 02 03 05 00 00 03 0B 00 0A
+T 00 18 3C 00 00 02 AF E4 55 00 00 01 50 00 57 00
+R 00 00 00 00 03 03 00 0A 03 09 00 03
+T 00 24 7C 00 00 50 00 00 57 00 00 7C
+R 00 00 00 00 02 03 00 01 43 06 00 09 03 09 00 09
+T 00 2C 00 00 50 01 57 00 7C 00 00 50 00 00 57
+R 00 00 00 00 02 02 00 02 02 09 00 01 43 0C 00 05
+T 00 38 00 00 7C 00 00 3C 00 00 01 A0 6C 3C
+R 00 00 00 00 03 02 00 05 02 05 00 02 03 08 00 00
+T 00 42 00 00 01 A0 06 3C 00 00 00 AF D3 55 00 00
+R 00 00 00 00 03 02 00 0A 03 08 00 0A 03 0E 00 03
+T 00 4D 02 50 00 57 00 7C 00 00 50 00 00 57 00 00
+R 00 00 00 00 02 08 00 01 43 0B 00 09 03 0E 00 09
+T 00 59 7C 00 00 50 01 57 00 7C 00 00 50 00 00 57
+R 00 00 00 00 02 03 00 02 02 0A 00 01 43 0D 00 06
+T 00 66 00 00 7C 00 00 3C 00 00 01 A0 3E 3C
+R 00 00 00 00 03 02 00 06 02 05 00 02 03 08 00 00
+T 00 70 00 00 00 A0 06 3C 00 00 01 AF D3 55 00 00
+R 00 00 00 00 03 02 00 0A 03 08 00 0A 03 0E 00 03
+T 00 7B 04 50 00 57 00 7C 00 00 50 00 00 57 00 00
+R 00 00 00 00 02 08 00 01 43 0B 00 09 03 0E 00 09
+T 00 87 7C 00 00 50 01 57 00 7C 00 00 50 00 00 57
+R 00 00 00 00 02 03 00 02 02 0A 00 01 43 0D 00 07
+T 00 94 00 00 7C 00 00 3C 00 00 01 A0 10 3C
+R 00 00 00 00 03 02 00 07 02 05 00 02 03 08 00 00
+T 00 9E 00 00 01 A0 06 3C 00 00 00 AF D3 55 00 00
+R 00 00 00 00 03 02 00 0A 03 08 00 0A 03 0E 00 0A
+T 00 A9 00 8F 72 7C 00 00 7F
+R 00 00 00 00 02 06 00 08

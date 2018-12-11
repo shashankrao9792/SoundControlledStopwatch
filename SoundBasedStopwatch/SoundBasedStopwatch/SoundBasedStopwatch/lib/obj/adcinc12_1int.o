@@ -1,0 +1,104 @@
+XH
+H 3 areas 9 global symbols
+M adcinc12_1int.asm
+A text size 0 flags 0
+dbfile lib/adcinc12_1int.asm
+dbfunc 0 ? 0 I
+dbfile memory.inc
+dbfunc 0 ? 0 I
+dbfile lib/adcinc12_1int.asm
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile lib/adcinc12_1int.asm
+dbfunc 0 ? 0 I
+dbfile ./lib/ADCINC12_1.inc
+dbfunc 0 ? 0 I
+A InterruptRAM size 6 flags 20
+S ADCINC12_1_bIncrC Def0005
+S _ADCINC12_1_fIncr Def0004
+S _ADCINC12_1_iIncr Def0002
+S ADCINC12_1_cCounterU Def0001
+S ADCINC12_1_cTimerU Def0000
+S ADCINC12_1_fIncr Def0004
+S ADCINC12_1_iIncr Def0002
+A UserModules size 77 flags 0
+dbfile lib/adcinc12_1int.asm
+dbfunc 0 ? 0 I
+dbline 58 0
+dbline 72 2
+dbline 7F 3
+dbline 81 5
+dbline 82 7
+dbline 84 8
+dbline 85 B
+dbline 87 D
+dbline 8A E
+dbline 8B 11
+dbline 8D 14
+dbline 8F 17
+dbline 91 1A
+dbline 2 1B
+dbline 94 1D
+dbline 2 20
+dbline 97 22
+dbline B6 24
+dbline B8 27
+dbline B9 2A
+dbline BA 2B
+dbline BB 2D
+dbline BD 2F
+dbline 2 32
+dbline BF 34
+dbline 2 37
+dbline C3 39
+dbline C4 3A
+dbline C5 3D
+dbline C7 3F
+dbline C8 41
+dbline CA 43
+dbline CB 45
+dbline CC 46
+dbline CD 48
+dbline CF 49
+dbline D0 4C
+dbline D1 4E
+dbline D2 51
+dbline F1 52
+dbline F2 55
+dbline F4 57
+dbline F5 59
+dbline F7 5B
+dbline F8 5E
+dbline F9 61
+dbline FA 62
+dbline FB 63
+dbline FE 66
+dbline 100 69
+dbline 101 6C
+dbline 105 6D
+dbline 106 70
+dbline 107 73
+dbline 108 76
+S _ADCINC12_1_CNT_ISR Def0000
+S _ADCINC12_1_TMR_ISR Def0003
+T 00 00 76 00 01 7E 7A 00 00 A0 02 7E 49 87 10 A0
+R 00 00 00 02 01 03 00 01 01 07 00 01
+T 00 0C 0F 40 62 47 05 41 87 EF 41 86 DF 55 00 00
+R 00 00 00 02 01 0E 00 01
+T 00 19 40 7E 71 10 41 45 0F 70 EF 71 01 43 86 20
+R 00 00 00 02
+T 00 27 43 87 10 08 5D 44 5D 46 62 47 00 71 10 43
+R 00 00 00 02
+T 00 35 45 50 70 EF 73 3C 00 01 20 B0 05 7A 00 01
+R 00 00 00 02 01 08 00 01 01 0E 00 01
+T 00 41 50 FF 68 00 01 6D 68 00 01 6D 5F 00 02
+R 00 00 00 02 01 05 00 01 01 09 00 01 01 0D 00 01
+T 00 4B 00 01 53 00 03 55 00 04 01 18 3C
+R 00 00 00 02 01 02 00 01 01 05 00 01 01 08 00 01
+T 00 53 00 05 00 A0 17 7A 00 05 B0 13 62 43 00 62
+R 00 00 00 02 01 02 00 01 01 08 00 01
+T 00 5F 47 00 40 40 41 E1 FC 43 86 20 43 87 10 7E
+R 00 00 00 02
+T 00 6D 55 00 00 01 55 00 01 E0 62 45 FF 7E
+R 00 00 00 02 01 03 00 01 01 07 00 01

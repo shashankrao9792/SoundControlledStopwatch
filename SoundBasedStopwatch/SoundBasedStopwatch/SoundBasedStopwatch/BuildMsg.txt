@@ -1,0 +1,31 @@
+Starting MAKE...
+creating project.mk 
+lib/adcinc12_1.asm
+lib/adcinc12_1int.asm
+lib/lcd_1.asm
+lib/led_1.asm
+lib/led_2.asm
+lib/led_3.asm
+lib/led_4.asm
+lib/pga_1.asm
+lib/psocconfig.asm
+lib/psocconfigtbl.asm
+lib/psocgpioint.asm
+lib/timer16_1.asm
+lib/timer16_1int.asm
+lib/timer16_2.asm
+lib/timer16_2int.asm
+lib/timer32_1.asm
+lib/timer32_1int.asm
+./boot.asm
+Linking..
+LMM info: area 'InterruptRAM' uses 10 bytes in SRAM bank 0
+LMM info: area 'bss' item of 38 bytes allocated in SRAM page 0
+LMM info: area 'virtual_registers' uses 2 bytes in SRAM page 0
+idata dump at output/SoundBasedStopwatch.idata
+  ROM 16% full. 5122 out of 32768 bytes used (does not include absolute areas).
+  RAM 3% full. 50 bytes used (does not include stack usage).
+Built with ICCM8C STD V7.05.00
+ 
+SoundBasedStopwatch - 0 error(s) 0 warning(s) 14:38:36
+

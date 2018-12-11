@@ -1,0 +1,100 @@
+# DO NOT DELETE
+./obj/accuracymode.o :  ./lib/ADCINC12_1.inc ./lib/LCD_1.inc\
+   ./lib/LED_1.inc ./lib/LED_2.inc ./lib/LED_3.inc ./lib/LED_4.inc\
+   ./lib/PGA_1.inc ./lib/PSoCAPI.inc ./lib/PSoCGPIOINT.inc\
+   ./lib/Timer16_1.inc ./lib/Timer16_2.inc ./lib/Timer32_1.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./obj/boot.o : \
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8ssc.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\lib\GlobalParams.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./obj/delay.o : \
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./obj/main.o :  ./lib/ADCINC12_1.inc ./lib/LCD_1.inc ./lib/LED_1.inc\
+   ./lib/LED_2.inc ./lib/LED_3.inc ./lib/LED_4.inc ./lib/PGA_1.inc\
+   ./lib/PSoCAPI.inc ./lib/PSoCGPIOINT.inc ./lib/Timer16_1.inc\
+   ./lib/Timer16_2.inc ./lib/Timer32_1.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./obj/memorymode.o :  ./lib/ADCINC12_1.inc ./lib/LCD_1.inc\
+   ./lib/LED_1.inc ./lib/LED_2.inc ./lib/LED_3.inc ./lib/LED_4.inc\
+   ./lib/PGA_1.inc ./lib/PSoCAPI.inc ./lib/PSoCGPIOINT.inc\
+   ./lib/Timer16_1.inc ./lib/Timer16_2.inc ./lib/Timer32_1.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./obj/soundsensitivitymode.o :  ./lib/ADCINC12_1.inc ./lib/LCD_1.inc\
+   ./lib/LED_1.inc ./lib/LED_2.inc ./lib/LED_3.inc ./lib/LED_4.inc\
+   ./lib/PGA_1.inc ./lib/PSoCAPI.inc ./lib/PSoCGPIOINT.inc\
+   ./lib/Timer16_1.inc ./lib/Timer16_2.inc ./lib/Timer32_1.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./obj/soundstopwatchmode.o :  ./lib/ADCINC12_1.inc ./lib/LCD_1.inc\
+   ./lib/LED_1.inc ./lib/LED_2.inc ./lib/LED_3.inc ./lib/LED_4.inc\
+   ./lib/PGA_1.inc ./lib/PSoCAPI.inc ./lib/PSoCGPIOINT.inc\
+   ./lib/Timer16_1.inc ./lib/Timer16_2.inc ./lib/Timer32_1.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./obj/stopwatchmode.o :  ./lib/ADCINC12_1.inc ./lib/LCD_1.inc\
+   ./lib/LED_1.inc ./lib/LED_2.inc ./lib/LED_3.inc ./lib/LED_4.inc\
+   ./lib/PGA_1.inc ./lib/PSoCAPI.inc ./lib/PSoCGPIOINT.inc\
+   ./lib/Timer16_1.inc ./lib/Timer16_2.inc ./lib/Timer32_1.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./obj/storingtomemory.o :  ./lib/ADCINC12_1.inc ./lib/LCD_1.inc\
+   ./lib/LED_1.inc ./lib/LED_2.inc ./lib/LED_3.inc ./lib/LED_4.inc\
+   ./lib/PGA_1.inc ./lib/PSoCAPI.inc ./lib/PSoCGPIOINT.inc\
+   ./lib/Timer16_1.inc ./lib/Timer16_2.inc ./lib/Timer32_1.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./lib/obj/adcinc12_1.o :  ./lib/ADCINC12_1.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./lib/obj/adcinc12_1int.o :  ./lib/ADCINC12_1.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./lib/obj/lcd_1.o :  ./lib/LCD_1.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./lib/obj/led_1.o :  ./lib/LED_1.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./lib/obj/led_2.o :  ./lib/LED_2.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./lib/obj/led_3.o :  ./lib/LED_3.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./lib/obj/led_4.o :  ./lib/LED_4.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./lib/obj/pga_1.o :  ./lib/PGA_1.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./lib/obj/psocconfig.o :  ./lib/GlobalParams.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./lib/obj/psocconfigtbl.o : \
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+./lib/obj/psocgpioint.o :  ./lib/PSoCGPIOINT.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+./lib/obj/timer16_1.o :  ./lib/Timer16_1.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./lib/obj/timer16_1int.o :  ./lib/Timer16_1.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./lib/obj/timer16_2.o :  ./lib/Timer16_2.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./lib/obj/timer16_2int.o :  ./lib/Timer16_2.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./lib/obj/timer32_1.o :  ./lib/Timer32_1.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc
+./lib/obj/timer32_1int.o :  ./lib/Timer32_1.inc\
+   C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc\
+   D:\CypressProjects\SoundBasedStopwatch\SoundBasedStopwatch\SoundBasedStopwatch\memory.inc

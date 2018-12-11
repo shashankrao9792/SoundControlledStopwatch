@@ -1,0 +1,182 @@
+XH
+H 1 areas 12 global symbols
+M soundsensitivitymode.asm
+S ADCINC12_1_fIsDataAvailable Ref0000
+S modeSwitch Ref0000
+S LCD_1_Position Ref0000
+S Delay10msTimes Ref0000
+S LCD_1_PrHexByte Ref0000
+S LCD_1_PrCString Ref0000
+S ADCINC12_1_ClearFlag Ref0000
+S LCD_1_Init Ref0000
+S threshold_lsb Ref0000
+S threshold_msb Ref0000
+S sRomString24 Ref0000
+S sRomString25 Ref0000
+S sRomString26 Ref0000
+S watchSwitch Ref0000
+S ADCINC12_1_iGetData Ref0000
+A text size 79 flags 0
+dbfile ./soundsensitivitymode.asm
+dbfunc 0 ? 0 I
+dbline B 0
+dbline C 2
+dbline D 4
+dbline E 7
+dbline F 9
+dbline 10 B
+dbline 11 E
+dbline 12 10
+dbline 13 12
+dbline 14 15
+dbline 15 17
+dbline 16 19
+dbline 18 1C
+dbline 19 1F
+dbline 1B 21
+dbline 1C 24
+dbline 1E 26
+dbline 1F 29
+dbline 23 2B
+dbline 24 2E
+dbline 25 30
+dbline 26 32
+dbline 27 35
+dbline 28 37
+dbline 29 39
+dbline 2B 3C
+dbline 2C 3E
+dbline 2F 41
+dbline 30 44
+dbline 32 46
+dbline 33 49
+dbline 34 4B
+dbline 35 4D
+dbline 36 50
+dbline 37 53
+dbline 38 56
+dbline 39 58
+dbline 3A 5A
+dbline 3B 5C
+dbline 3C 5F
+dbline 3D 61
+dbline 3F 64
+dbline 43 66
+dbline 44 69
+dbline 46 6B
+dbline 47 6E
+dbline 49 70
+dbline 4A 73
+dbline 4E 75
+dbline 4F 78
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile Timer32_1.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/Timer32_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile Timer16_2.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/Timer16_2.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile Timer16_1.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/Timer16_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/PGA_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile LED_4.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/LED_4.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile LED_3.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/LED_3.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile LED_2.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/LED_2.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile LED_1.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/LED_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile LCD_1.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/LCD_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/ADCINC12_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/PSoCGPIOINT.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./soundsensitivitymode.asm
+dbfunc 0 ? 0 I
+dbfile memory.inc
+dbfunc 0 ? 0 I
+dbfile ./soundsensitivitymode.asm
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+S startSoundSensitivityMode Def0000
+S $sb$startSoundSensitivityMode Def0000
+S $se$startSoundSensitivityMode Def0079
+T 00 00 50 00 57 00 7C 00 00 50 00 00 57 00 00 7C
+R 00 00 00 00 02 07 00 02 43 0A 00 0A 03 0D 00 0A
+T 00 0C 00 00 50 01 57 00 7C 00 00 50 00 00 57
+R 00 00 00 00 02 02 00 05 02 09 00 02 43 0C 00 0B
+T 00 18 00 00 7C 00 00 3C 00 00 01 A0 55 3C
+R 00 00 00 00 03 02 00 0B 02 05 00 05 03 08 00 01
+T 00 22 00 00 00 A0 06 3C 00 00 02 AF D6 7C 00 00
+R 00 00 00 00 03 02 00 0D 03 08 00 0D 02 0E 00 07
+T 00 2E 50 00 57 00 7C 00 00 50 00 00 57 00 00 7C
+R 00 00 00 00 02 07 00 02 43 0A 00 0C 03 0D 00 0C
+T 00 3A 00 00 50 FF 7C 00 00 7C 00 00 AF FC 7C
+R 00 00 00 00 02 02 00 05 02 07 00 03 02 0A 00 00
+T 00 47 00 00 53 00 00 5A 00 00 06
+R 00 00 00 00 02 02 00 0E 03 05 00 08 03 08 00 09
+T 00 4E 00 00 08 7C 00 00 55 00 00 03 65
+R 00 00 00 00 03 02 00 09 02 06 00 06 03 09 00 08
+T 00 57 00 00 50 01 57 00 7C 00 00 51 00 00 7C
+R 00 00 00 00 03 02 00 08 02 09 00 02 03 0C 00 08
+T 00 62 00 00 80 01 3C 00 00 01 A0 0B 3C 00 00 01
+R 00 00 00 00 02 02 00 04 03 07 00 01 03 0D 00 0D
+T 00 6E A0 06 3C 00 00 00 AF F2 7C 00 00 7F
+R 00 00 00 00 03 05 00 0D 02 0B 00 07

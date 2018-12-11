@@ -1,0 +1,273 @@
+XH
+H 1 areas 21 global symbols
+M soundstopwatchmode.asm
+S ADCINC12_1_fIsDataAvailable Ref0000
+S modeSwitch Ref0000
+S LCD_1_Position Ref0000
+S sec Ref0000
+S LCD_1_PrCString Ref0000
+S min Ref0000
+S sRomString1 Ref0000
+S accuracy Ref0000
+S ADCINC12_1_ClearFlag Ref0000
+S LCD_1_Init Ref0000
+S Timer32_1_Start Ref0000
+S Timer16_1_Start Ref0000
+S Timer16_2_Start Ref0000
+S threshold_lsb Ref0000
+S threshold_msb Ref0000
+S sRomString20 Ref0000
+S sRomString23 Ref0000
+S watchSwitch Ref0000
+S msec Ref0000
+S hour Ref0000
+S Timer32_1_EnableInt Ref0000
+S Timer16_1_EnableInt Ref0000
+S Timer16_2_EnableInt Ref0000
+S storeToHistory Ref0000
+S milisec Ref0000
+S iResult Ref0000
+S ADCINC12_1_iGetData Ref0000
+S Timer32_1_Stop Ref0000
+S Timer16_1_Stop Ref0000
+S Timer16_2_Stop Ref0000
+A text size F8 flags 0
+dbfile ./soundstopwatchmode.asm
+dbfunc 0 ? 0 I
+dbline C 0
+dbline D 3
+dbline E 5
+dbline F 8
+dbline 10 A
+dbline 11 C
+dbline 12 F
+dbline 13 12
+dbline 14 14
+dbline 15 16
+dbline 16 18
+dbline 17 1A
+dbline 18 1C
+dbline 1A 1E
+dbline 1C 1F
+dbline 1D 22
+dbline 21 24
+dbline 22 27
+dbline 23 29
+dbline 24 2C
+dbline 25 2E
+dbline 26 30
+dbline 27 33
+dbline 28 36
+dbline 29 38
+dbline 2A 3A
+dbline 2B 3C
+dbline 2C 3E
+dbline 2D 40
+dbline 2F 42
+dbline 31 43
+dbline 32 46
+dbline 36 48
+dbline 37 4A
+dbline 38 4C
+dbline 39 4F
+dbline 3A 51
+dbline 3B 53
+dbline 3C 56
+dbline 3D 58
+dbline 3E 5A
+dbline 3F 5D
+dbline 40 5F
+dbline 41 61
+dbline 43 64
+dbline 44 66
+dbline 45 69
+dbline 46 6B
+dbline 47 6E
+dbline 48 70
+dbline 49 73
+dbline 4D 75
+dbline 4E 78
+dbline 4F 7A
+dbline 50 7C
+dbline 51 7F
+dbline 52 81
+dbline 53 83
+dbline 54 86
+dbline 55 89
+dbline 56 8B
+dbline 57 8E
+dbline 58 90
+dbline 59 93
+dbline 5C 95
+dbline 5D 98
+dbline 5E 9B
+dbline 5F 9E
+dbline 60 A1
+dbline 62 A4
+dbline 63 A6
+dbline 64 A9
+dbline 65 AB
+dbline 66 AE
+dbline 67 B0
+dbline 68 B3
+dbline 6D B5
+dbline 6E B8
+dbline 6F BB
+dbline 70 BD
+dbline 71 C0
+dbline 72 C2
+dbline 73 C5
+dbline 74 C8
+dbline 79 CA
+dbline 7A CD
+dbline 7B D0
+dbline 7C D2
+dbline 7D D5
+dbline 7E D7
+dbline 7F DA
+dbline 80 DD
+dbline 85 DF
+dbline 86 E2
+dbline 87 E5
+dbline 88 E7
+dbline 89 EA
+dbline 8A EC
+dbline 8B EF
+dbline 8C F2
+dbline 90 F4
+dbline 91 F7
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile Timer32_1.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/Timer32_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile Timer16_2.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/Timer16_2.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile Timer16_1.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/Timer16_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/PGA_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile LED_4.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/LED_4.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile LED_3.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/LED_3.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile LED_2.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/LED_2.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile LED_1.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/LED_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile LCD_1.inc
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/LCD_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/ADCINC12_1.inc
+dbfunc 0 ? 0 I
+dbfile PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/PSoCGPIOINT.inc
+dbfunc 0 ? 0 I
+dbfile ./lib/PSoCAPI.inc
+dbfunc 0 ? 0 I
+dbfile ./soundstopwatchmode.asm
+dbfunc 0 ? 0 I
+dbfile memory.inc
+dbfunc 0 ? 0 I
+dbfile ./soundstopwatchmode.asm
+dbfunc 0 ? 0 I
+dbfile C:/PROGRA~2/Cypress/PSOCDE~1/5.3/Common/CY110F~1/tools/include/CY8C29~1/m8c.inc
+dbfunc 0 ? 0 I
+S startSoundWatchMode Def0048
+S $sb$readFromSensor1 Def0000
+S $se$readFromSensor1 Def00F8
+T 00 00 7C 00 00 AF FC 7C 00 00 53 00 01 5A
+R 00 00 00 00 02 03 00 00 02 08 00 1A 03 0B 00 19
+T 00 0B 00 00 06 00 00 08 7C 00 00 51
+R 00 00 00 00 03 02 00 19 03 05 00 19 02 09 00 08
+T 00 13 00 00 3A 00 01 C0 08 51 00 00 3A
+R 00 00 00 00 03 02 00 0D 03 05 00 19 03 0A 00 0E
+T 00 1B 00 00 C0 02 7F 55 00 00 00 8F FB 7C 00 00
+R 00 00 00 00 03 02 00 19 03 08 00 11 02 0E 00 00
+T 00 27 AF FC 7C 00 00 53 00 01 5A 00 00 06
+R 00 00 00 00 02 05 00 1A 03 08 00 19 03 0B 00 19
+T 00 31 00 00 08 7C 00 00 51 00 00 3A
+R 00 00 00 00 03 02 00 19 02 06 00 08 03 09 00 0D
+T 00 39 00 01 C0 08 51 00 00 3A 00 00 C0 02 7F 55
+R 00 00 00 00 03 02 00 19 03 07 00 0E 03 0A 00 19
+T 00 44 00 00 01 8F FB 50 00 57 00 7C 00 00 50
+R 00 00 00 00 03 02 00 11 02 0C 00 02
+T 00 50 00 00 57 00 00 7C 00 00 50 01 57 00 7C
+R 00 00 00 00 43 02 00 0F 03 05 00 0F 02 08 00 04
+T 00 5B 00 00 50 00 00 57 00 00 7C
+R 00 00 00 00 02 02 00 02 43 05 00 06 03 08 00 06
+T 00 62 00 00 9F 9A 3C 00 00 01 A0 8A 3C 00 00 00
+R 00 00 00 00 02 02 00 04 03 07 00 01 03 0D 00 11
+T 00 6E A0 06 3C 00 00 02 AF D4 7C 00 00 50 00 57
+R 00 00 00 00 03 05 00 11 02 0B 00 09
+T 00 7B 00 7C 00 00 50 00 00 57 00 00 7C
+R 00 00 00 00 02 04 00 02 43 07 00 10 03 0A 00 10
+T 00 84 00 00 3C 00 00 01 A0 2B 3C 00 00 02 A0 3B
+R 00 00 00 00 02 02 00 04 03 05 00 07 03 0B 00 07
+T 00 90 3C 00 00 04 A0 4B 55 00 00 00 55 00 00 00
+R 00 00 00 00 03 03 00 07 03 09 00 18 03 0D 00 12
+T 00 9B 55 00 00 00 55 00 00 00 55 00 00 00 9F 5A
+R 00 00 00 00 03 03 00 03 03 07 00 05 03 0B 00 13
+T 00 A6 3C 00 00 01 A0 4A 3C 00 00 00 AF C6 3C
+R 00 00 00 00 03 03 00 01 03 09 00 11
+T 00 B1 00 00 01 AF E1 7C 00 00 7C 00 00 9F 67 3C
+R 00 00 00 00 03 02 00 11 02 08 00 14 02 0B 00 0A
+T 00 BE 00 00 00 AF F4 7C 00 00 7C 00 00 8F CC 7C
+R 00 00 00 00 03 02 00 11 02 08 00 1B 02 0B 00 17
+T 00 CB 00 00 7C 00 00 9F 52 3C 00 00 00 AF F4 7C
+R 00 00 00 00 02 02 00 15 02 05 00 0B 03 0A 00 11
+T 00 D8 00 00 7C 00 00 8F B7 7C 00 00 7C
+R 00 00 00 00 02 02 00 1C 02 05 00 17 02 0A 00 16
+T 00 E3 00 00 9F 3D 3C 00 00 00 AF F4 7C 00 00 7C
+R 00 00 00 00 02 02 00 0C 03 07 00 11 02 0D 00 1D
+T 00 F0 00 00 8F A2 7C 00 00 7F
+R 00 00 00 00 02 02 00 17 02 07 00 09
